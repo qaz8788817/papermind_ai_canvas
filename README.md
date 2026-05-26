@@ -37,7 +37,7 @@ Ensure you have a modern Python environment and your Google AI Studio API Key re
 pip install customtkinter google-genai pydantic pillow
 ```
 ### Gemini API
-Goto [website (https://aistudio.google.com/)][website] apply a free Gemini API. Then copy the API key and paste in the line 53.
+Goto [Google API (https://aistudio.google.com/)] apply a free Gemini API. Then copy the API key and paste in the line 53.
 
 
 ## Run the App
