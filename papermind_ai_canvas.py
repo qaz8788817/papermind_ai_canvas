@@ -50,7 +50,7 @@ class PaperMindAICanvas(ctk.CTk):
         # 初始化 Gemini 客戶端 (會自動讀取作業系統中名為 GEMINI_API_KEY 的環境變數)
         # 你也可以直接寫成 client = genai.Client(api_key="你的KEY")
         try:
-            self.ai_client = genai.Client(api_key="AIzaSyCcpMHkMfiYWoElAuKNvzQQO1Huvb93ALY")
+            self.ai_client = genai.Client()
         except Exception as e:
             self.ai_client = None
 
